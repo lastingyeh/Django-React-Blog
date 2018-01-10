@@ -6,27 +6,27 @@
 
 1. create virtualenv
     
-    > virtualenv [virtualenv-name]
+        > virtualenv [virtualenv-name]
 
 2. activate virtualenv
 
-    > source [virtualenv-name]/bin/activate
+        > source [virtualenv-name]/bin/activate
 
 3. install packages for Django.
 
-    (virtualenv-name) > pip install -r requirements.txt
+        (virtualenv-name) > pip install -r requirements.txt
 
 4. create project
 
-    (virtualenv-name) > django-admin startproject [project-name]
+        (virtualenv-name) > django-admin startproject [project-name]
 
 5. create app
 
-    (virtualenv-name) / [project-name] > python manage.py startapp [app-name]
+        (virtualenv-name) / [project-name] > python manage.py startapp [app-name]
 
 6. runserver
 
-    (virtualenv-name) / [project-name] > python manage.py runserver
+        (virtualenv-name) / [project-name] > python manage.py runserver
 
 #### Client
 
@@ -34,19 +34,19 @@
 
 1. NPM install
 
-    > npm install (or yarn install)
+        > npm install (or yarn install)
 
 2. create webpack.config.js
 
-3. create /src/ and files
+3. create /src/ & files
 
 4. run dev-server
 
-    > npm run dev
+        > npm run dev
 
 #### Refs. 
 
-1. Demo from vinitraj10.[Django-React-Blog](https://github.com/vinitraj10/Django-React-Blog)
+1. [vinitraj10 Django-React-Blog](https://github.com/vinitraj10/Django-React-Blog)
 
 2. [REST framework JWT Auth](https://getblimp.github.io/django-rest-framework-jwt/)
 
