@@ -12,7 +12,7 @@ class SocialAuth extends Component {
 	loadFbLoginApi = () => {
 		window.fbAsyncInit = function() {
 			FB.init({
-				appId: '356365894829277',
+				appId: 'your-app-id',
 				cookie: true,
 				xfbml: true,
 				version: 'v2.11'
